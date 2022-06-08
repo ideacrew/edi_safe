@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require "edi_safe/version"
+require_relative "edi_safe/version"
+require_relative "edi_safe/inventory"
 
+# Detects and corrects characters EDI can't handle in payloads.
 module EdiSafe
-  class Error < StandardError; end
-  # Your code goes here...
 end

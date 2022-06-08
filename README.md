@@ -2,6 +2,10 @@
 
 A tool to transliterate extended characters that can not be encoded or handled by EDI.
 
+## Usage
+
+TODO: Write usage instructions here
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,10 +21,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install edi_safe
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## License
 
