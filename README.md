@@ -4,7 +4,10 @@ A tool to transliterate extended characters that can not be encoded or handled b
 
 ## Usage
 
-TODO: Write usage instructions here
+Just call to transform your string, and it should come out cleaned:
+```
+EdiSafe.transform(your_string)
+```
 
 ## Installation
 
