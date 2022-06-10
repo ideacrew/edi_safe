@@ -6,6 +6,6 @@ RSpec.describe EdiSafe do
   end
 
   it "has a replacement hash" do
-    expect(EdiSafe::Inventory::MATCHING_REGEX.class).to eq Regexp
+    expect(EdiSafe::Inventory::SUBSTITUTION_HASH.class).to eq Hash
   end
 end
