@@ -11,7 +11,8 @@ module EdiSafe
     def transform(string, xml = true)
       return string unless @special_character_regex =~ string
       string.gsub(@special_character_regex) do |char|
-        xml ? CGI.escapeHTML(@special_character_substitution[char]) : @special_character_substitution[char]
+        sub_char = @special_character_substitution[char]
+        xml ? CGI.escapeHTML(sub_char) : sub_char
       end
     end
   end
