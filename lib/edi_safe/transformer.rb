@@ -8,10 +8,10 @@ module EdiSafe
       @special_character_substitution = ::EdiSafe::Inventory::SUBSTITUTION_HASH
     end
 
-    def transform(string)
+    def transform(string, xml = true)
       return string unless @special_character_regex =~ string
       string.gsub(@special_character_regex) do |char|
-        @special_character_substitution[char]
+        xml ? CGI.escapeHTML(@special_character_substitution[char]) : @special_character_substitution[char]
       end
     end
   end

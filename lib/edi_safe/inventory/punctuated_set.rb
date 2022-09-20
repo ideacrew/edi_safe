@@ -7,8 +7,11 @@ module EdiSafe
       REPLACEMENTS = {
         "“" => "\"",
         "”" => "\"",
-        "‘" => "\'",
-        "’" => "\'"
+        "‘" => "'",
+        "’" => "'",
+        "«" => "<<",
+        "»" => ">>",
+        "¿" => ""
       }.freeze
 
       CHARACTER_SET = REPLACEMENTS.keys.freeze
