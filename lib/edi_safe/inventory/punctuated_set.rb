@@ -11,7 +11,13 @@ module EdiSafe
         "’" => "'",
         "«" => "<<",
         "»" => ">>",
-        "¿" => ""
+        "¿" => "",
+        "|" => "",
+        "~" => "",
+        "^" => "",
+        "{" => "",
+        "}" => "",
+        "¡" => ""
       }.freeze
 
       CHARACTER_SET = REPLACEMENTS.keys.freeze
