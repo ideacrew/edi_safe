@@ -10,7 +10,7 @@ RSpec.describe EdiSafe do
 
   # rubocop:disable Metrics/LineLength
   let(:expected_substitution_result) do
-    "AAAAAAAECEEEEIIIIDNOOOOOxOUUUUYThssaaaaaaaeceeeeiiiidnoooooouuuuythyAaAaAaCcCcCcCcDdDdEeEeEeEeEeGgGgGgGgHhHhIiIiIiIiIiIJijJjKkkLlLlLlLlLlNnNnNn&#39;nNGngOoOoOoOEoeRrRrRrSsSsSsSsTtTtTtUuUuUuUuUuUuWwYyYZzZzZz&quot;&quot;&#39;&#39;&lt;&lt;&gt;&gt;"
+    "AAAAAAAECEEEEIIIIDNOOOOOxOUUUUYThssaaaaaaaeceeeeiiiidnoooooouuuuythyAaAaAaCcCcCcCcDdDdEeEeEeEeEeGgGgGgGgHhHhIiIiIiIiIiIJijJjKkkLlLlLlLlLlNnNnNn&#39;nNGngOoOoOoOEoeRrRrRrSsSsSsSsTtTtTtUuUuUuUuUuUuWwYyYZzZzZz&quot;&quot;&#39;&#39;&#39;&#39;&lt;&lt;&gt;&gt;"
   end
   # rubocop:enable Metrics/LineLength
 
